@@ -79,14 +79,14 @@ namespace SharpStrike
                 if (options.ShowExamples)
                 {
                     ClearOutput();
-                    Messages.GetExamples(true);
+                    Messages.GetExamples();
                     return;
                 }
 
                 if (options.Test)
                 {
                     Messenger.Info(@"Test method not currently supported");
-                    Messages.GetExamples(true);
+                    Messages.GetExamples();
                     return;
                 }
 
