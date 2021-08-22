@@ -135,5 +135,7 @@ SharpStrike is composed of three main projects
 
 ### Read more
 [CIMplant Part 1: Detection of a C# Implementation of WMImplant](https://fortynorthsecurity.com/blog/cimplant-part-1-detections/)
+
 [WMImplant – A WMI Based Agentless Post-Exploitation RAT Developed in PowerShell](https://www.fireeye.com/blog/threat-research/2017/03/wmimplant_a_wmi_ba.html)
-[https://c99.sh/sharpstrike-post-exploitation-tool-cim-wmi-inside/](https://c99.sh/sharpstrike-post-exploitation-tool-cim-wmi-inside/)
+
+[SharpStrike | Post-exploitation tool | CIM & WMI Inside](https://c99.sh/sharpstrike-post-exploitation-tool-cim-wmi-inside/)
