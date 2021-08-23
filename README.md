@@ -77,6 +77,7 @@ command_exec -e "quser" [remote IP address] -u [username] -d [domain] -p [passwo
     ls_domain_groups***          - List domain user groups                           
     ls_domain_admins***          - List domain admin users                           
     ls_user_groups***            - List domain user with their associated groups
+    ls_computers***              - List computers on current domain
 
 
 #### Process Operations
@@ -88,6 +89,7 @@ command_exec -e "quser" [remote IP address] -u [username] -d [domain] -p [passwo
     active_users                 -  List domain users with active processes on the targeted system
     basic_info                   -  Used to enumerate basic metadata about the targeted system
     drive_list                   -  List local and network drives
+    share_list                   -  List network shares
     ifconfig                     -  Receive IP info from NICs with active network connections
     installed_programs           -  Receive a list of the installed programs on the targeted machine
     logoff                       -  Log users off the targeted machine

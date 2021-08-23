@@ -40,6 +40,7 @@ namespace ServiceLayer
                         "ls_domain_users_list*** - List domain users sAMAccountName",
                         "ls_domain_users_email*** - List domain users email address",
                         "ls_domain_groups*** - List domain user groups",
+                        "ls_computers*** - List List computers on current domain",
                         "ls_domain_admins*** - List domain admin users",
                         "ls_user_groups*** - List domain user with their associated groups",
                     }
@@ -141,7 +142,6 @@ namespace ServiceLayer
                         @"service_mod , -c service_mod --execute create --servicebin [path to service exe] --service [service] , -c service_mod --execute create -s 192.168.64.4 -u test -p 1 --servicebin c:\users\test\desktop\temp.exe --service fortynorth",
                         @"service_mod , -c service_mod --execute start --service [service] , -c service_mod --execute create -s 192.168.64.4 -u test -p 1 --service fortynorth",
                         @"service_mod , -c service_mod --execute delete --service [service] , -c service_mod --execute delete -s 192.168.64.4 -u test -p 1 --service fortynorth",
-                        @"share_list , -c share_list , -c share_list -s 192.168.64.4 -u test -p 1",
                         @"ls_domain_users , -c ls_domain_users",
                         @"ls_domain_users_list , -c ls_domain_users_list",
                         @"ls_domain_users_email , -c ls_domain_users_email",
