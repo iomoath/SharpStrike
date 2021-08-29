@@ -31,6 +31,7 @@ namespace SharpStrike
         {
             try
             {
+                args = new [] { "--show-examples" };
                 Init();
                 PrintAbout();
                 HandleCommand(args).Wait();
@@ -114,6 +115,7 @@ namespace SharpStrike
                 Messenger.Info(@"Execution time: " + watch.ElapsedMilliseconds / 1000 + @" Seconds");
 
                 Unlock();
+                Environment.Exit(1);
             }
         }
 
@@ -146,7 +148,9 @@ namespace SharpStrike
                 options.Domain = null;
                 options.Password = null;
             }
-
+            
+            
+            
             options.NameSpace = Commands.GetCommandNameSpace(options.Command);
 
             return options;

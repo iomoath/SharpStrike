@@ -205,7 +205,11 @@ namespace ServiceLayer
 
                     var c = commandSplit[0].Trim().TrimEnd().TrimStart();
                     var d = commandSplit[1].Trim().TrimEnd().TrimStart();
-                    var example = commandSplit[2].Trim().TrimEnd().TrimStart();
+
+                    var example = string.Empty;
+
+                    if(commandSplit.Length > 2)
+                        example = commandSplit[2].Trim().TrimEnd().TrimStart();
 
                     if (isGui)
                     {

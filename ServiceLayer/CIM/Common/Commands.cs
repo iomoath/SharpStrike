@@ -131,7 +131,7 @@ namespace ServiceLayer.CIM
         public static string GetCommandNameSpace(string command)
         {
             if (string.IsNullOrEmpty(command))
-                throw new ArgumentNullException(nameof(command));
+                return DefaultNameSpace;
 
 
             if (CommandNameSpace.ContainsKey(command))
