@@ -31,7 +31,6 @@ namespace SharpStrike
         {
             try
             {
-                args = new [] { "--show-examples" };
                 Init();
                 PrintAbout();
                 HandleCommand(args).Wait();
